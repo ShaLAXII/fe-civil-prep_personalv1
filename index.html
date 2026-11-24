@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1322">
+<meta name="description" content="FE Civil Prep private study library — source books included, with practice questions, timed sessions, and progress tracking.">
+<title>FE Civil Prep | Private Book Edition</title>
+<link rel="icon" type="image/svg+xml" href="./icons/logo.svg">
+<link rel="stylesheet" href="./styles.css">
+</head><body>
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="brand"><span class="brand-icon">FE</span><div><b>FE Civil Prep</b><small>Your engineering study space</small></div></div>
+  <div class="side-label">STUDY SPACE</div>
+  <nav id="desktopNav" aria-label="Main navigation">
+    <button data-page="home"><span class="navicon">⌂</span>Dashboard</button>
+    <button data-page="library"><span class="navicon">▦</span>Question library</button>
+    <button data-page="practice"><span class="navicon">✎</span>Practice questions</button>
+    <button data-page="exams"><span class="navicon">◷</span>Timed exams</button>
+    <button data-page="subjects"><span class="navicon">◎</span>Study by subject</button>
+    <button data-page="reader"><span class="navicon">▤</span>Book reader</button>
+    <button data-page="progress"><span class="navicon">▥</span>My progress</button>
+    <button data-page="reports"><span class="navicon">⚑</span>My issue reports</button>
+  </nav>
+  <div class="side-label">YOUR LIBRARY</div>
+  <nav><button data-page="sources"><span class="navicon">▤</span>Included books</button><button data-page="settings"><span class="navicon">⚙</span>Settings & backup</button></nav>
+  <div class="sidebar-footer"><span class="dot"></span>Private on this device<small>No login</small></div>
+</aside>
+<div class="main-area">
+  <header class="topbar"><div class="topbar-left"><span class="mini-brand">FE</span><span id="breadcrumb">Dashboard</span></div><div class="top-actions"><span class="top-pill" id="bankPill">Source-based practice</span><button class="avatar" data-page="sources" title="Open your books" aria-label="Open your books">↥</button></div></header>
+  <main id="view" class="view" aria-live="polite"></main>
+</div>
+</div>
+<nav class="mobile-nav" aria-label="Mobile navigation">
+ <button data-page="home"><span>⌂</span>Home</button><button data-page="library"><span>▦</span>Library</button><button data-page="practice"><span>✎</span>Practice</button><button data-page="reader"><span>▤</span>Reader</button><button data-page="sources"><span>▤</span>Books</button>
+</nav>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="./book_index.js"></script><script src="./app.js" defer></script>
+</body></html>

@@ -1,0 +1,12 @@
+Learnova PDF pages: 809
+Indexed question IDs: 1,052 (continuous 1–1052)
+Original question PDF page: present for all 1,052
+Publisher solution locations: 1,051 automatically mapped + question 277 recovered manually at page 516 = 1,052
+Extracted publisher letter labels: 1,050
+Publisher question 218: no unequivocal letter, excluded from grading
+Publisher question 276: printed A, correct as written B (central thin rod I=mL^2/12).
+Publisher question 277: printed B, correct as written A (solid cylinder radius of gyration R/sqrt(2)).
+App grading keys: 1,051 (including 2 targeted corrections); question 218 excluded.
+M.R. Islam: 638 scanned PDF pages, 800 problems listed in publisher title; individual problems NOT indexed.
+FE Handbook: 506 PDF pages, edition 10.6.
+No full-bank independent engineering verification has been performed.
